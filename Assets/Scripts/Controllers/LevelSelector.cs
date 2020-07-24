@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -14,7 +15,23 @@ namespace UnityGolf
 		public TMP_Dropdown dropdownMenu;
 		public List<LevelList> levelLists;
 
-		
+		public List<int> indexList= new List<int>();
+
+		public void Awake()
+		{
+			List<string> levelNames = new List<string>();
+			foreach (LevelList levelList in levelLists)
+			{
+				foreach (LevelConfig level in levelList.levelConfigs)
+				{
+					levelNames.Add(level.LevelName);
+					indexList.Add(level.sceneBuildIndex);
+				}
+			}
+			dropdownMenu.ClearOptions();
+			dropdownMenu.AddOptions(levelNames);
+		}
+
 		void Start()
 		{
 
@@ -26,14 +43,15 @@ namespace UnityGolf
 
 		}
 
-		public void SelectLevel()
+		public void SelectLevel(int value)
 		{
-			Debug.Log("Select Level");
+			SceneManager.LoadScene(indexList[value]);
 		}
 
 		public void CloseLevelSelectScreen()
 		{
 			Debug.Log("Close level select screen");
+			gameObject.SetActive(false);
 		}
 	}
 }

@@ -4253,73 +4253,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134727162}
   m_CullTransparentMesh: 0
---- !u!114 &355297293060581808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8e361656a787744a9ba66e00f681ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowObject: {fileID: 0}
-  playerData: {fileID: 0}
-  playerRuntimeSet: {fileID: 0}
-  ui: {fileID: 0}
-  isWon: 0
-  relativeCamera: {fileID: 0}
-  maxGroundCastDistance: 10
-  strokesVariable: {fileID: 0}
-  timeVariable: {fileID: 0}
---- !u!114 &398187659198042084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64025115942068447be0db0594abcd68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collideDefaultSoundEffect: {fileID: 11400000, guid: e27c72088d345504cb893b4974b6d755,
-    type: 2}
-  puttSoundEffect: {fileID: 11400000, guid: 08910156ce4b8bb41b9a0005d49e1155, type: 2}
-  audioSource: {fileID: 6267305105057325407}
---- !u!114 &1774143538282142327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1303853367e6804cb0b482b3a925b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TimeElapsed: {fileID: 0}
-  isEnabled: 1
-  TimeUpdateDelay: 0.45
---- !u!114 &2361579112697713203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 422c7c523e9f5c04686c4aa825cf5b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minY: -100
-  disallowedTags:
-  - OutOfBounds
 --- !u!1 &2868696291517774485
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,110 +4270,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3407862747200731298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: 0}
-  m_NotificationBehavior: 3
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 17a16470-3fb3-4545-b5ea-4e2b217b1a87
-    m_ActionName: Player/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: cfa8a9cb-ff5e-4ed4-b325-05095a7fdc6e
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 31361843-7392-4dbb-8bee-b3ca5581f788
-    m_ActionName: UI/Submit[/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b7736bba-15e7-43fd-995f-265045f76d6b
-    m_ActionName: UI/Cancel[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b168adbb-1855-4110-9a44-ff450eb06ed2
-    m_ActionName: UI/Point[/Mouse/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 22b05f33-6993-4ad4-828e-50358f7941e5
-    m_ActionName: UI/Click[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: c623b514-154f-4de5-98ae-73db68d4f380
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: ed7d4fe3-ec77-4b36-832e-03f24554482e
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 35a721c4-15fa-4784-8d02-fc0e7ab2e2c7
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6b926850-bd7c-4bc4-a02d-28d1c7212fc4
-    m_ActionName: UI/TrackedDevicePosition
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 0261f760-7e82-4da2-a62d-c6e10e7ea873
-    m_ActionName: UI/TrackedDeviceOrientation
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: OnDragCallback
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: c64cdafd-4e39-4c57-80bf-c0c7e24044f3
-    m_ActionName: Player/Drag
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 61111836-bc25-4e8c-ad8e-01bfcaf03e4b
-    m_ActionName: Player/DragRelease
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!4 &4902587343036958024
 Transform:
   m_ObjectHideFlags: 0
@@ -4494,19 +4323,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &5597352878207147150
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484026562938253047}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &6267305105057325407
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4629,12 +4445,6 @@ GameObject:
   - component: {fileID: 9146019118972655138}
   - component: {fileID: 9144383690472158071}
   - component: {fileID: 5031954083660712708}
-  - component: {fileID: 5597352878207147150}
-  - component: {fileID: 355297293060581808}
-  - component: {fileID: 1774143538282142327}
-  - component: {fileID: 3407862747200731298}
-  - component: {fileID: 2361579112697713203}
-  - component: {fileID: 398187659198042084}
   m_Layer: 0
   m_Name: Golf Ball
   m_TagString: Player
