@@ -1,0 +1,35 @@
+Script started on 2020-06-21 13:26:45-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="86" LINES="22"]
+[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/Assets]1;..s/Golf/Assets[0m[27m[24m[J[01;32mling ➜  [36m~/Documents/Golf/Assets[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;ls ArrowShader.shader                     [0m[01;34mMaterials[0m        [01;34mScriptableObjects[0m
+ ArrowShader.shader.meta                Materials.meta   ScriptableObjects.meta
+'Cube (2).prefab'                       [01;34mMeshes[0m           [01;34mScripts[0m
+'Cube (2).prefab.meta'                  Meshes.meta      Scripts.meta
+ [00;36mgolfball.mp3[0m                           [01;34mPlugins[0m          [01;34mSounds[0m
+ golfball.mp3.meta                      Plugins.meta     Sounds.meta
+ [01;34mImages[0m                                 [01;34mPrefabs[0m          [01;34mTerrain[0m
+ Images.meta                            Prefabs.meta     Terrain.meta
+ InHole.cs                              [01;34mSamples[0m         [01;34m'Trash Files'[0m
+ InHole.cs.meta                         Samples.meta    'Trash Files.meta'
+ InputSystem.inputsettings.asset        [01;34mScenes[0m           typescript
+ InputSystem.inputsettings.asset.meta   Scenes.meta
+[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/Assets]1;..s/Golf/Assets[0m[27m[24m[J[01;32mling ➜  [36m~/Documents/Golf/Assets[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hrrm r  ccd Scripts[?1l>[?2004l
+]2;cd Scripts]1;cd[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/Assets/Scripts]1;..ssets/Scripts[0m[27m[24m[J[01;32mling ➜  [36m~/Documents/Golf/Assets/Scripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls --color=tty]1;lsArrowDirectionIndicator.cs       GameEventListener.cs
+ArrowDirectionIndicator.cs.meta  GameEventListener.cs.meta
+BallAudio.cs                     KeepInBounds.cs
+BallAudio.cs.meta                KeepInBounds.cs.meta
+BallControlScript.cs             MouseDragComposite.cs
+BallControlScript.cs.meta        MouseDragComposite.cs.meta
+Clock.cs                         MouseDragInteraction.cs
+Clock.cs.meta                    MouseDragInteraction.cs.meta
+[0m[01;34mControllers[0m                      NewBehaviourScript.cs
+Controllers.meta                 NewBehaviourScript.cs.meta
+CustomUnityEvent.cs              ObstacleAudio.cs
+CustomUnityEvent.cs.meta         ObstacleAudio.cs.meta
+[01;34mEditors[0m                          Spawnpoint.cs
+Editors.meta                     Spawnpoint.cs.meta
+EventManager.cs                  Test.cs
+EventManager.cs.meta             Test.cs.meta
+[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/Assets/Scripts]1;..ssets/Scripts[0m[27m[24m[J[01;32mling ➜  [36m~/Documents/Golf/Assets/Scripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hrrm NewBehaviourScript.cs[?1l>[?2004l
+]2;rm NewBehaviourScript.cs]1;rm[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/Assets/Scripts]1;..ssets/Scripts[0m[27m[24m[J[01;32mling ➜  [36m~/Documents/Golf/Assets/Scripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hrrm NewBehaviourScript.cs.meta[1m [0m[0m [?1l>[?2004l
+]2;rm NewBehaviourScript.cs.meta]1;rm[1m[7m%[27m[1m[0m                                                                                      ]2;ling@arch-laptop: ~/Documents/Golf/As

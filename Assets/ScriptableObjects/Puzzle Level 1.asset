@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6908644412ccf4d894eac6ff0d1332, type: 3}
+  m_Name: Puzzle Level 1
+  m_EditorClassIdentifier: 
+  LevelName: Puzzle 1-PROTOTYPE
+  LevelDescription: A prototype for puzzles
+  returnToMainMenuOnComplete: 1
+  MaxTime: 0
+  RecommendedStrokes: 0
+  sceneBuildIndex: 6

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdceaa047843aa1459612990bba9e81e, type: 3}
+  m_Name: DebugPlayerConfig
+  m_EditorClassIdentifier: 
+  playerName: Debug
+  ballColor:
+    serializedVersion: 2
+    rgba: 0
+  ballMaterial: {fileID: 2100000, guid: 9d0c75bfa34b84753a4198a89ae3f103, type: 2}
+  screenBorderRadius: 20
+  maxBallPuttForce: 50
+  sleepThreshold: 5
+  atRestThreshold: 0.1

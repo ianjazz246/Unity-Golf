@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923945607003ff7459254922e8ada4da, type: 3}
+  m_Name: Main Levels List
+  m_EditorClassIdentifier: 
+  listName: Main levels
+  listDescription: The default levels. Increasingly difficult.
+  levelConfigs:
+  - {fileID: 11400000, guid: 086cb30867225cd42afd5ff88f4aeb92, type: 2}
+  - {fileID: 11400000, guid: b647630a6c9d1df40a8c42bfe97e45ae, type: 2}
+  - {fileID: 11400000, guid: 7fd8d4b5ab8c241bd9a3024628eccea7, type: 2}
+  - {fileID: 11400000, guid: 88cf253fde4fe4de2b024ca38fd28e12, type: 2}
+  - {fileID: 11400000, guid: 6329d30d62b654b97af4ae03ddd45768, type: 2}

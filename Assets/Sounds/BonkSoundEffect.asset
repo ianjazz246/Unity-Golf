@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe7a0d7278f6b741971a957096b5302, type: 3}
+  m_Name: BonkSoundEffect
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 2f457431978f87840a44a80c41e09d14, type: 3}
+  - {fileID: 8300000, guid: 18cf257f70c55c2438bb9dff5f604963, type: 3}
+  - {fileID: 8300000, guid: 60b5173157e64f642bb88be830e78165, type: 3}
+  volumeRange: {x: 0.9, y: 1.1}
+  pitchRange: {x: 0.9, y: 1.1}
