@@ -47,6 +47,7 @@ namespace UnityGolf
 		{
 			delay = new WaitForSeconds(TimeUpdateDelay);
 			timeUpdateCoroutine = StartCoroutine(TimeUpdateLoop());
+			lastCheckTime = Time.time;
 		}
 
 		/*private void Update()
@@ -61,7 +62,8 @@ namespace UnityGolf
 		{
 			while (IsEnabled)
 			{
-				TimeElapsed.Value = Time.time - lastCheckTime;
+				TimeElapsed.Value += Time.time - lastCheckTime;
+				lastCheckTime = Time.time;
 				yield return delay;
 			}
 		}

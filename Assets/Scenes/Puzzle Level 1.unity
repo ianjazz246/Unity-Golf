@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 50044301}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: OutOfBounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -311,6 +311,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1603215934}
     m_Modifications:
+    - target: {fileID: 869168073802388990, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168074825547730, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 869168074867158840, guid: 85a8a4e3e59101a4db057d7242144edc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -371,6 +381,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door 2 Wide
       objectReference: {fileID: 0}
+    - target: {fileID: 869168074867158843, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168074936739446, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168075146836480, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168075588998375, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a8a4e3e59101a4db057d7242144edc, type: 3}
 --- !u!4 &357337929 stripped
@@ -386,6 +416,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1603215934}
     m_Modifications:
+    - target: {fileID: 1302291455978456566, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280306295706876290, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2694294727404777847, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
       propertyPath: onButtonPress.m_PersistentCalls.m_Calls.Array.size
@@ -446,10 +486,20 @@ PrefabInstance:
       propertyPath: onButtonRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5507752211580495452, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864339, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
       propertyPath: m_Name
       value: Door 2 Button Away Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958669077558864339, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864341, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
@@ -590,6 +640,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Track hole
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b4f53698cde584fa1c0232c1b51645,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b4f53698cde584fa1c0232c1b51645, type: 3}
 --- !u!1 &475916548
@@ -609,7 +664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &475916549
 Transform:
@@ -722,10 +777,20 @@ PrefabInstance:
       propertyPath: onButtonPressEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7958669076326520142, guid: 837c302f2c319bd4f9fbb32a61e98036,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864339, guid: 837c302f2c319bd4f9fbb32a61e98036,
         type: 3}
       propertyPath: m_Name
       value: Door 1 Button Latched
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958669077558864339, guid: 837c302f2c319bd4f9fbb32a61e98036,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864341, guid: 837c302f2c319bd4f9fbb32a61e98036,
         type: 3}
@@ -801,7 +866,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &745509203
 Transform:
@@ -949,6 +1014,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: BallInHoleDetection
       objectReference: {fileID: 0}
+    - target: {fileID: 4417464182182414386, guid: 5e3f97aeb9858d54f9c6ba01708672b9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644582397455794537, guid: 5e3f97aeb9858d54f9c6ba01708672b9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3f97aeb9858d54f9c6ba01708672b9, type: 3}
 --- !u!4 &1008665016 stripped
@@ -964,6 +1039,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1603215934}
     m_Modifications:
+    - target: {fileID: 1302291455978456566, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280306295706876290, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2694294727404777847, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
       propertyPath: onButtonPress.m_PersistentCalls.m_Calls.Array.size
@@ -1029,10 +1114,20 @@ PrefabInstance:
       propertyPath: onButtonRelease.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5507752211580495452, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864339, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
       propertyPath: m_Name
       value: Door 2 Button Near Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958669077558864339, guid: 1408b8ebbc44c8b4293f8be4a710b712,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7958669077558864341, guid: 1408b8ebbc44c8b4293f8be4a710b712,
         type: 3}
@@ -1298,8 +1393,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!65 &1470939056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1409,7 +1504,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!215 &1495313709
 ReflectionProbe:
@@ -1727,7 +1822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1603215934
 Transform:
@@ -1796,7 +1891,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2000592391
 Transform:
@@ -1885,6 +1980,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1603215934}
     m_Modifications:
+    - target: {fileID: 869168073802388990, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168074825547730, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 869168074867158840, guid: 85a8a4e3e59101a4db057d7242144edc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1945,10 +2050,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puzzle Door Wide
       objectReference: {fileID: 0}
+    - target: {fileID: 869168074867158843, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168074936739446, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 869168074936739447, guid: 85a8a4e3e59101a4db057d7242144edc,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168075146836480, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869168075588998375, guid: 85a8a4e3e59101a4db057d7242144edc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a8a4e3e59101a4db057d7242144edc, type: 3}

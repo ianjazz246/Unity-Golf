@@ -8,6 +8,7 @@ public class MainMenuController : MonoBehaviour
 
 	public GameObject howToPlayScreen;
 	public GameObject gangolfImage;
+	public GameObject levelSelectScreen;
 
 	private bool gangolfEnabled = false;
 
@@ -29,7 +30,12 @@ public class MainMenuController : MonoBehaviour
 
 	}
 
-	public void SetActiveHowToPlayScreen(bool enabled=false)
+	public void SetActiveLevelSelectScreen(bool enabled)
+	{
+		levelSelectScreen.SetActive(enabled);
+	}
+
+	public void SetActiveHowToPlayScreen(bool enabled)
 	{
 		howToPlayScreen.SetActive(enabled);
 	}
@@ -40,7 +46,7 @@ public class MainMenuController : MonoBehaviour
 		SetActiveGangolfImage(gangolfEnabled);
 	}
 
-	public void SetActiveGangolfImage(bool enabled=false)
+	public void SetActiveGangolfImage(bool enabled)
 	{
 		gangolfImage.SetActive(enabled);
 	}

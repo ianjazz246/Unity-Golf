@@ -15,7 +15,7 @@ namespace UnityGolf
 		public TMP_Dropdown dropdownMenu;
 		public List<LevelList> levelLists;
 
-		public List<int> indexList= new List<int>();
+		private List<int> indexList= new List<int>();
 
 		public void Awake()
 		{
@@ -32,20 +32,19 @@ namespace UnityGolf
 			dropdownMenu.AddOptions(levelNames);
 		}
 
-		void Start()
+		/*public void OnValueChanged(int value)
 		{
+			SelectLevel(indexList[value]);
+		}*/
 
+		public void OnLoadButtonPressed()
+		{
+			LoadLevel(indexList[dropdownMenu.value]);
 		}
 
-		// Update is called once per frame
-		void Update()
+		public void LoadLevel(int index)
 		{
-
-		}
-
-		public void SelectLevel(int value)
-		{
-			SceneManager.LoadScene(indexList[value]);
+			SceneManager.LoadScene(index);
 		}
 
 		public void CloseLevelSelectScreen()

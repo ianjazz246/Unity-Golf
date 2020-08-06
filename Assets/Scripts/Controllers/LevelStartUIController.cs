@@ -16,7 +16,6 @@ namespace UnityGolf
 			// levelConfig is a reference to scriptableObject, so doesn't depend on code in UIController, only on reference
 			if (levelConfig == null)
 			{
-				Debug.Log("Getting levelConfig from parent");
 				levelConfig = GetComponentInParent<UIController>().levelConfig;
 			}
 		}

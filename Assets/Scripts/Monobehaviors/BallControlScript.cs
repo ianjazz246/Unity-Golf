@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace UnityGolf
 {
@@ -28,6 +29,7 @@ namespace UnityGolf
 		private Vector3 mouseDragStartPos;
 		private Vector3 prevMousePos;
 		private InputAction puttInputAction;
+		private InputAction mainMenuInputAction;
 
 		private void Awake()
 		{
@@ -42,12 +44,14 @@ namespace UnityGolf
 			timeVariable.Value = 0;
 
 			puttInputAction = GetComponent<PlayerInput>().actions["Putt"];
+			mainMenuInputAction = GetComponent<PlayerInput>().actions["MainMenu"];
 		}
 
 		private void OnEnable()
 		{
 			puttInputAction.performed += OnDragPerform;
 			puttInputAction.canceled += OnDragCancel;
+			mainMenuInputAction.performed += OnMainMenuKey;
 
 			playerRuntimeSet.Add(this);
 		}
@@ -56,6 +60,7 @@ namespace UnityGolf
 		{
 			puttInputAction.performed -= OnDragPerform;
 			puttInputAction.canceled -= OnDragCancel;
+			mainMenuInputAction.performed -= OnMainMenuKey;
 
 			playerRuntimeSet.Remove(this);
 		}
@@ -113,6 +118,11 @@ namespace UnityGolf
 			float angle = -Mathf.Atan2(mouseCenterOffset.y, mouseCenterOffset.x) * 180 / Mathf.PI + 90;
 			OnMouseDragRelease(Vector3.zero, prevMousePos, angle);
 			//Debug.Log("Canceled" + context.ReadValue<Vector2>());
+		}
+
+		public void OnMainMenuKey(InputAction.CallbackContext context)
+		{
+			SceneManager.LoadScene(Constants.MAIN_MENU_SCENE_NAME);
 		}
 
 		public void OnGameWin()
